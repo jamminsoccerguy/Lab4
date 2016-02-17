@@ -60,7 +60,7 @@ public class DoubleIt {
             newArray = new int[(array.length * 2)]; //creates the newArray, but doubles the space of the old array
 
             //copy values into new array
-            for(int j = 0; j < array.length; j++){
+            for(int j = 0; j < array.length; j++){ //iterates over arrays, copying values from array into newArray
                 newArray[j] = array[j];
             }
 
